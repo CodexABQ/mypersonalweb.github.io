@@ -8,8 +8,8 @@ This landing page is designed to provide a convenient way to find me on differen
 
 ## Usage
 
-Visit [My Personal Landing Page](https://your-landing-page-url.com) to access the landing page.
-
+Visit [My Personal Landing Page](
+https://codexabq.github.io/mypersonalweb.github.io/) to access the page
 ## Features
 
 - Links to my social media profiles (e.g., GitHub, LinkedIn, Twitter, Instagram).
@@ -22,7 +22,7 @@ Contributions are not expected for this repository since it's a personal landing
 
 ## Contact
 
-- [Email](mailto:youremail@example.com)
+- [Email](mailto:https://qaasimohinoyi@gmail.com)
 - [LinkedIn](https://www.linkedin.com/in/yourprofile/)
 - [GitHub](https://github.com/yourusername)
 - [Twitter](https://twitter.com/yourhandle)
