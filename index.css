@@ -1,0 +1,165 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+nav{
+    background-color: black;
+    padding: 8px;
+}
+nav h1{
+    color: aliceblue;
+}
+body{
+    transition: all 2s ease;
+}
+header{
+    background-color: rgb(53, 49, 49);
+}
+header .container-1a{
+    display: flex;
+    justify-content: center;
+    padding-top: 14px;
+    flex-direction: column;
+}
+header .container-1{
+    /* background-color: red;  */
+    padding: 1em 10px;
+    display: flex;
+    justify-content: space-around;
+}
+header .container-1a h1,
+header .container-1a h2{
+    color: rgb(217, 219, 221);
+    font-size: clamp(2em, 5vw, 4em);
+    /* font-size: clamp(5em 6em 7em); */
+}
+header img{
+    width: 5em;
+    mix-blend-mode: screen;
+    aspect-ratio: 1/2;
+}
+header .background{
+    display: block;
+    /* background-color: transparent; */
+}
+.section1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: gainsboro;
+}
+.section1 h1{
+    padding-bottom: 1em;
+    font-size: clamp(2em, 5vw, 4em);
+}
+.section1 p{
+    text-align: center;
+    text-shadow: 1px 2px 3px grey;
+    padding-bottom: 2em;
+    font-size: clamp(1em, 4vw, 3em);
+}
+.section2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: repeating-linear-gradient(
+        90deg,
+        rgba(27, 27, 34, 0.222) 0px,rgba(27, 27, 34, 0.222) 40px,
+        transparent 40px,
+        transparent 80px
+    ),repeating-linear-gradient(
+        0deg,
+        rgba(27, 27, 34, 0.222) 0px,rgba(27, 27, 34, 0.222) 40px,
+        transparent 40px,
+        transparent 80px
+    ),linear-gradient(90deg,grey,grey);
+    /* background-attachment: fixed; */
+}
+.section2 h1{
+    color: black;
+    font-weight: bolder;
+    padding: 1em 10px;
+}
+.section2 .container1 img{
+    width: 4em;
+    aspect-ratio: 1;
+    border: 1px solid white;
+}
+.section2 .container1{
+    display: flex;
+    flex-direction: column;
+}
+.section2 .container1 .container-a{
+    display: flex;
+    background-color: rgb(59, 51, 51);
+    border-radius: 7px;
+    width: 70vw;
+    box-shadow: 4px 4px 3px 5px black;
+    margin: 1em 2px;
+    border: 1px ridge white;
+}
+.section2 .container1 .container-a:active{
+    transform: scale(.97);
+    box-shadow: none;
+}
+.section2 .container1 .container-a .sub-container-a{
+    width: 100%;
+    border: 1px ridge white;
+}
+.section2 .container1 .container-a h3,
+.section2 .container1 .container-a p{
+    color: aliceblue;
+    font-size: clamp(1em, 4vw, 3em);
+    text-align: center;
+    padding: 8px;
+    border-bottom: 1px solid white;
+}
+.section3{
+    background-color: rgb(217, 219, 221);
+}
+.section3 h1{
+    /* color: red; */
+    text-align: center;
+    padding-top: 1em;
+    font-size: clamp(2em, 5vw, 4em);
+}
+.section3 .container1{
+    display: flex;
+    overflow-x: hidden;
+    
+}
+.section3 .container1 blockquote{
+    text-align: center;
+    padding: 2em 0px;
+    min-width: 100vw;
+    font-size: clamp(1em, 4vw, 3em);   
+    /* color: white; */
+    display: none;
+    height: 6em;
+}
+.section3 .container1 blockquote cite{
+    /* padding-top: 3em; */
+    font-weight: bolder;
+}
+.section3 .container1 blockquote cite::before{
+    content: "__";
+}
+@media screen and (min-width: 500px){
+    .section2 .container1{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .section2 .container1 .container-a{
+        width: 45vw;
+    }
+}
+@keyframes fade {
+    from {
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
