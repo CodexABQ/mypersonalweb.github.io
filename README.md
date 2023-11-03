@@ -8,8 +8,7 @@ This landing page is designed to provide a convenient way to find me on differen
 
 ## Usage
 
-Visit [My Personal Landing Page](
-https://codexabq.github.io/mypersonalweb.github.io/) to access the page
+Visit [My Personal Landing Page](https://codexabq.github.io/personalweb/) to access the page
 ## Features
 
 - Links to my social media profiles (e.g., GitHub, LinkedIn, Twitter, Instagram).
