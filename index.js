@@ -20,7 +20,7 @@ document.getElementById("twitter").addEventListener("click", ()=>{
     location.href = "https://x.com/CodexABQ?t=viwpNRVn3PoL39qCeb42gw&s=09";
 })
 document.getElementById("linkedin").addEventListener("click", ()=>{
-    location.href = "https://ng.linkedin.com/in/abdulwahab-ohinoyi-qaasim-63b353297";
+    location.href = "https://www.linkedin.com/me?trk=p_mwlite_feed_updates-secondary_nav";
 })
 document.getElementById("stackoverflow").addEventListener("click", ()=>{
     location.href = "https://stackoverflow.com/users/22828249/codexabq";
