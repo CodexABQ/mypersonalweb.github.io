@@ -22,9 +22,9 @@ Contributions are not expected for this repository since it's a personal landing
 ## Contact
 
 - [Email](mailto:https://qaasimohinoyi@gmail.com)
-- [LinkedIn](https://www.linkedin.com/in/yourprofile/)
-- [GitHub](https://github.com/yourusername)
-- [Twitter](https://twitter.com/yourhandle)
+- [LinkedIn](https://ng.linkedin.com/in/qaasim-codexabq-63b353297)
+- [GitHub](https://github.com/CodexABQ)
+- [Twitter](https://x.com/CodexABQ?t=Ug9P2BJQQ3V3X8SwIkDmtA&s=09)
 
 ## License
 
