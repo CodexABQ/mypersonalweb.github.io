@@ -29,6 +29,7 @@ let h1 = document.querySelector('nav h1');
 let nav = document.querySelector('nav')
 window.addEventListener('scroll', ()=>{
   if(window.scrollY >= 120){
+    nav.style.transition = 'all 2s ease';
     nav.style.position = 'sticky';
     nav.style.top = '0';
     h1.innerHTML = 'CodexABQ'
@@ -37,5 +38,6 @@ window.addEventListener('scroll', ()=>{
     nav.style.position = 'relative';
     h1.classList.remove('newh1');
     h1.innerHTML = 'Welcome to my page'
+    nav.style.transition = 'all 2s ease';
   }
 })
