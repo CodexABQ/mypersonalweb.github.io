@@ -26,12 +26,16 @@ document.getElementById("stackoverflow").addEventListener("click", ()=>{
     location.href = "https://stackoverflow.com/users/22828249/codexabq";
 })
 let h1 = document.querySelector('nav h1');
+let nav = document.querySelector('nav')
 window.addEventListener('scroll', ()=>{
-  document.querySelector('.section1 h1'). innerHTML=window.scrollY;
-  if(window.scrollY >= 15){
-    h1.style.background = 'linear-gradient(120deg, #86A8E7, #B7C0EE)';
-    
+  if(window.scrollY >= 120){
+    nav.style.position = 'sticky';
+    nav.style.top = '0';
+    h1.innerHTML = 'CodexABQ'
+    h1.classList.add('newh1');
   }else{
-    h1.style.background = 'aliceblue';
+    nav.style.position = 'relative';
+    h1.classList.remove('newh1');
+    h1.innerHTML = 'Welcome to my page'
   }
 })
