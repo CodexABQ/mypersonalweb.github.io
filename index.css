@@ -7,8 +7,9 @@ nav{
     padding: 8px;
 }
 nav h1{
-    background: linear-gradient(120deg, #86A8E7, #B7C0EE);
+    background: aliceblue;
     -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     
 }
 body{
