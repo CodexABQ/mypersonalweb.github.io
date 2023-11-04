@@ -5,6 +5,8 @@
 nav{
     background-color: black;
     padding: 8px;
+    position: sticky;
+    top: 0;
 }
 nav h1{
     background: aliceblue;
