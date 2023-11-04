@@ -5,6 +5,7 @@
 nav{
     background-color: black;
     padding: 8px;
+    transition: all 2s ease;
 }
 nav h1{
     background: aliceblue;
@@ -18,7 +19,7 @@ nav .newh1{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-nav .newh1:: before {
+nav .newh1::before {
     content: '💫';
 }
 body{
@@ -46,8 +47,8 @@ header .container-1a h2{
     /* font-size: clamp(5em 6em 7em); */
 }
 header img{
-    width: 5em;
-    mix-blend-mode: screen;
+    width: 6em;
+    mix-blend-mode: multiply;
     aspect-ratio: 1/2;
 }
 header .background{
