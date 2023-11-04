@@ -25,6 +25,7 @@ document.getElementById("linkedin").addEventListener("click", ()=>{
 document.getElementById("stackoverflow").addEventListener("click", ()=>{
     location.href = "https://stackoverflow.com/users/22828249/codexabq";
 })
+let h1 = document.querySelector('nav h1');
 window.addEventListener('scroll', ()=>{
   if(window.scrollY >= 15){
     h1.style.background = 'linear-gradient(120deg, #86A8E7, #B7C0EE)'
