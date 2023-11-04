@@ -14,6 +14,14 @@ nav h1{
     -webkit-text-fill-color: transparent;
     
 }
+nav .newh1{
+    background: crimson;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+nav .newh1:: before {
+    content: 💫;
+}
 body{
     transition: all 2s ease;
 }
