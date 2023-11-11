@@ -1,4 +1,4 @@
-alert('yoo');
+
 const blockquotes = document.querySelectorAll(".section3 .container1 blockquote")
 const quoteContainer = document.querySelectorAll(".section3 .container1")
 let currentIndex = 0;
@@ -15,6 +15,7 @@ blockquotes[currentIndex].style.display = 'block';
 const interval = setInterval(rotateQuotes, 5000);
 
 document.getElementById("github").addEventListener("click", ()=>{
+    alert("GitHub");
     location.href = "https://github.com/CodexABQ";
 })
 document.getElementById("twitter").addEventListener("click", ()=>{
