@@ -1,3 +1,4 @@
+alert('yoo');
 const blockquotes = document.querySelectorAll(".section3 .container1 blockquote")
 const quoteContainer = document.querySelectorAll(".section3 .container1")
 let currentIndex = 0;
